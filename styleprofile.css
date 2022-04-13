@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    margin: 10px;
+    padding: auto;
+}
+
+h2{
+    background-color:black;
+    padding: auto;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    
+    
+   }
+p{
+   
+    padding: auto;
+    margin-top: 30px;
+    text-align: center;
+    height: 40px;
+    padding-top: 40px;
+    
+   }
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.me-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+
+ 
+.flex{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+    margin-top: 30px;
+    padding-top: 80px;
+    
+    
+}
+.box{
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    opacity: 0;
+  }
+  
+  .delay-time02 {
+    -webkit-animation: example 0.5s ease 0.5s 1 forwards;
+    animation: example 0.5s ease 0.5s 1 forwards;
+  }
+  
+  .delay-time03 {
+    -webkit-animation: example 0.5s ease 1s 1 forwards;
+    animation: example 0.5s ease 1s 1 forwards;
+  }
+  
+  .box  {
+    -webkit-animation: example 0.5s ease 1.5s 1 forwards;
+    animation: example 0.5s ease 1.5s 1 forwards;
+  }
+  
+  
+  @-webkit-keyframes example {
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes example {
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  body {
+
+    height: 500px; /* 空の要素なので、高さの定義が必要です。 */
+    background-image: url(../image/kumo2.JPG);
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+    
+    }
+  
