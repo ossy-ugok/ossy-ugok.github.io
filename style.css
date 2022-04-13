@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 4%;
+}
+
+.home-content{
+    animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(180px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+  }
+  40%,100% {
+    opacity: 1;
+  }
+}
+ 
+
+
+.button:hover{
+background: white;
+}
+
+
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    background-color:black;
+    padding: auto;
+    margin-top: 30px;
+    text-align: center;
+    height: 120px;
+    padding-top: 40px;
+    color: white;
+   }
+
+   body {
+
+    height: 500px; /* 空の要素なので、高さの定義が必要です。 */
+    background-image: url(../image/kumo2.JPG);
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+    
+    }
