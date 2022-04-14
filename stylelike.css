@@ -54,7 +54,7 @@ p{
 
     height: 500px; /* 空の要素なので、高さの定義が必要です。 */
     background-image: url(../image/kumo2.JPG);
-      background-repeat: no-repeat;
+      background-repeat: repeat;
       background-size: cover;
    
     
